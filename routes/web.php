@@ -13,4 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'SaleController@graph')->name('sale.chart');
+Route::get('/', 'SaleController@getGraphs')->name('sale.chart');

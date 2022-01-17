@@ -8,7 +8,7 @@ use DB;
 
 class SaleController extends Controller
 {
-    public function graph(){
+    public function getGraphs(){
         //First Graph
         $items = DB::table('sales')->select('product_line')->distinct()->get();
         $i=0;
