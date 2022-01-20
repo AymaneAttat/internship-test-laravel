@@ -52,7 +52,7 @@
             label: 'Female',
             backgroundColor: "rgba(255, 99, 132, 0.2)",
             data: groupM
-        }, {
+        },{
             label: 'Male',
             backgroundColor: "rgba(54, 162, 235, 1)",
             data: groupN
